@@ -23,7 +23,6 @@ Data is cleand
 }
 \examples{
 \dontrun{
-data <- import_data("/data/CompanyData2018.csv")
-clean_data(data, id_var = "ID")
+clean_data(CompanyData2018, id_var = "ID")
 }
 }
