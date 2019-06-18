@@ -1,6 +1,6 @@
 #' Cleaning function
 #' 
-#' Data is cleand
+#' Data is cleanedd
 #'
 #' @param df data.frame, data to be cleaned
 #' @param id_var character, columnname of dataframe which acts as the ID variable 
@@ -14,9 +14,9 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' clean_data(CompanyData2018, id_var = "ID")
+#' clean(CompanyData2018, id_var = "ID")
 #' }
-clean_data <- function(df, id_var, na_threshold = 0.9, ...) {
+clean <- function(df, id_var, na_threshold = 0.9, ...) {
   
   #if data frame is empty stop
   stopifnot(nrow(df) > 0)
