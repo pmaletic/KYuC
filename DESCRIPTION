@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Danylo Khrystenko, Cosmin Cojocaru, Predag Maletic, Filip Smolik and Andreas Peterseil
 Maintainer: Predag Maletic <predag.maletic@raiffeisenbank.rs>
 Description: This package provides functionalities for data analysis.
-Imports: DescTools, readr
+Imports: DescTools, readr, data.table
 Depends: R (>= 2.10)
 License: file LICENSE
 Encoding: UTF-8

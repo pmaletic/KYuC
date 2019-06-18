@@ -36,7 +36,7 @@ clean <- function(df, id_var, na_threshold = 0.9, ...) {
   if (sum(exclude_index) > 0) warning(paste("Column(s)", paste(colnames(df[exclude_index]), collapse = ", "), "have too many NAs and will be excluded"))
   
   #exclude variables with more than defined treshold of NAs
-  df[, !exclude_index]
+  df <- df[, !exclude_index]
   
   #replace remaining NAs with zero value
   
