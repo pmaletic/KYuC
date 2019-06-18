@@ -4,7 +4,7 @@
 #' @return log-transformed vector \code{x}
 #' @examples
 #' example_vector=c(1,2,3,4,5,6,7,8,9,10)
-#' transform_log(example_vector)
+#' transform_log_kyuc(example_vector)
 #' @export
 
 transform_log_kyuc <- function(x){

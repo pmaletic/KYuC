@@ -14,5 +14,5 @@ Log-transformation is a popular tool for dealing with skewness.For further detai
 }
 \examples{
 example_vector=c(1,2,3,4,5,6,7,8,9,10)
-transform_log(example_vector)
+transform_log_kyuc(example_vector)
 }
